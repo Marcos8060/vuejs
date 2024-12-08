@@ -1,47 +1,65 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import { ref, onMounted } from "vue";
+
+const name = ref("John Doe");
+const status = ref("pending");
+const tasks = ref(["Task One", "Task Two", "Task Three"]);
+const newTask = ref("");
+
+const toggleStatus = () => {
+  if (status.value === "active") {
+    status.value = "pending";
+  } else if (status.value === "pending") {
+    status.value = "inactive";
+  } else {
+    status.value = "active";
+  }
+};
+
+const addTask = () => {
+  if (newTask.value.trim !== "") {
+    tasks.value.push(newTask.value);
+    newTask.value = "";
+  }
+};
+
+const deleteTask = (index) => {
+  tasks.value.splice(index, 1);
+};
+
+onMounted(async () => {
+  try {
+    const response = await fetch("https://jsonplaceholder.typicode.com/todos");
+    const data = await response.json();
+    tasks.value = data.map((task) => task.title);
+  } catch (error) {
+    console.log(error.message);
+  }
+});
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <h1>{{ name }}</h1>
+  <p v-if="status === 'active'">User is active</p>
+  <p v-else-if="status === 'pending'">User is pending</p>
+  <p v-else>User is inactive</p>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <form @submit.prevent="addTask">
+    <label for="addTask">Add Task:</label>
+    <input id="newTask" name="newTask" type="text" v-model="newTask" />
+    <button type="submit">Submit</button>
+  </form>
 
-  <main>
-    <TheWelcome />
-  </main>
+  <h3>Tasks:</h3>
+  <ul>
+    <li v-for="(task, index) in tasks" :key="task">
+      <span>
+        {{ task }}
+      </span>
+      <button @click="deleteTask(index)">x</button>
+    </li>
+  </ul>
+
+  <!-- <button v-on:click="toggleStatus">Toggle Status</button> -->
+  <button @click="toggleStatus">Toggle Status</button>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
