@@ -1,5 +1,4 @@
-{
-  "jobs": [
+[
     {
       "title": "Senior Vue Dev",
       "type": "Full-Time",
@@ -83,68 +82,5 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "a39b"
-    },
-    {
-      "id": "8b92"
-    },
-    {
-      "id": "7435",
-      "title": "Hayfa Farrell",
-      "type": "Remote",
-      "location": "Pariatur Beatae ull",
-      "description": "Ab cumque consequat",
-      "salary": "$90K - $100K",
-      "company": {
-        "name": "Mcfadden and Sampson Associates",
-        "description": "Est nostrum iure la",
-        "contactEmail": "lypyqofef@mailinator.com",
-        "contactPhone": "+1 (967) 496-5773"
-      }
-    },
-    {
-      "id": "187d",
-      "title": "Katelyn King",
-      "type": "Remote",
-      "location": "Adipisci unde dolore",
-      "description": "Ullam excepturi obca",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "Rivers Morris LLC",
-        "description": "Impedit sed pariatu",
-        "contactEmail": "qofoziq@mailinator.com",
-        "contactPhone": "+1 (147) 649-7178"
-      }
-    },
-    {
-      "id": "8986",
-      "title": "Keely Sanchez",
-      "type": "Internship",
-      "location": "Sit aut beatae dict",
-      "description": "Et suscipit eius eli",
-      "salary": "$125K - $150K",
-      "company": {
-        "name": "Cabrera Horne Trading",
-        "description": "Quam ea mollit ut es",
-        "contactEmail": "mejoti@mailinator.com",
-        "contactPhone": "+1 (824) 589-5587"
-      }
-    },
-    {
-      "id": "3fec",
-      "title": "Hayley Richards",
-      "type": "Internship",
-      "location": "Iste quia non et ut ",
-      "description": "Alias veritatis simi",
-      "salary": "$125K - $150K",
-      "company": {
-        "name": "Fulton Spencer LLC",
-        "description": "Blanditiis autem dol",
-        "contactEmail": "buwuzawevi@mailinator.com",
-        "contactPhone": "+1 (351) 964-7015"
-      }
     }
   ]
-}
