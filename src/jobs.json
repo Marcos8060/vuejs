@@ -15,18 +15,18 @@
       "id": "1"
     },
     {
-      "id": "2",
-      "title": "Front-End Engineer (Vue)",
+      "title": "Front-End Engineer (React)",
       "type": "Full-Time",
-      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
       "location": "Miami, FL",
+      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
       "salary": "$70K - $80K",
       "company": {
         "name": "Veneer Solutions",
         "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
         "contactEmail": "contact@loremipsum.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "2"
     },
     {
       "id": "3",
@@ -89,76 +89,6 @@
     },
     {
       "id": "8b92"
-    },
-    {
-      "id": "7435",
-      "title": "Hayfa Farrell",
-      "type": "Remote",
-      "location": "Pariatur Beatae ull",
-      "description": "Ab cumque consequat",
-      "salary": "$90K - $100K",
-      "company": {
-        "name": "Mcfadden and Sampson Associates",
-        "description": "Est nostrum iure la",
-        "contactEmail": "lypyqofef@mailinator.com",
-        "contactPhone": "+1 (967) 496-5773"
-      }
-    },
-    {
-      "id": "187d",
-      "title": "Katelyn King",
-      "type": "Remote",
-      "location": "Adipisci unde dolore",
-      "description": "Ullam excepturi obca",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "Rivers Morris LLC",
-        "description": "Impedit sed pariatu",
-        "contactEmail": "qofoziq@mailinator.com",
-        "contactPhone": "+1 (147) 649-7178"
-      }
-    },
-    {
-      "id": "8986",
-      "title": "Keely Sanchez",
-      "type": "Internship",
-      "location": "Sit aut beatae dict",
-      "description": "Et suscipit eius eli",
-      "salary": "$125K - $150K",
-      "company": {
-        "name": "Cabrera Horne Trading",
-        "description": "Quam ea mollit ut es",
-        "contactEmail": "mejoti@mailinator.com",
-        "contactPhone": "+1 (824) 589-5587"
-      }
-    },
-    {
-      "id": "3fec",
-      "title": "Hayley Richards",
-      "type": "Internship",
-      "location": "Iste quia non et ut ",
-      "description": "Alias veritatis simi",
-      "salary": "$125K - $150K",
-      "company": {
-        "name": "Fulton Spencer LLC",
-        "description": "Blanditiis autem dol",
-        "contactEmail": "buwuzawevi@mailinator.com",
-        "contactPhone": "+1 (351) 964-7015"
-      }
-    },
-    {
-      "id": "fa85",
-      "title": "Nathan Payne",
-      "type": "Full-Time",
-      "location": "Voluptatum qui quis ",
-      "description": "Anim perspiciatis l",
-      "salary": "Over $200K",
-      "company": {
-        "name": "Ramos and Rojas Inc",
-        "description": "Anim quas beatae con",
-        "contactEmail": "gizir@mailinator.com",
-        "contactPhone": "+1 (495) 649-5095"
-      }
     },
     {
       "id": "20e8",
